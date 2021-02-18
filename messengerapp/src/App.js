@@ -11,9 +11,9 @@ const App = () => {
             projectID="f646c1d7-fb85-48e5-bd73-96adbe1f9371"
             userName="andresIcedo"
             userSecret="raven2021"
-            renderChatFeed={(chatAppProps) => <ChatFeed { ...chatAppProps}}
+            renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
         />
-    )
+    );
 }
 
 export default App;
